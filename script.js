@@ -4,7 +4,9 @@ $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Toronto&units=metric
     var temp = Math.floor(data.main.temp) + '°C';
     var feels_like = Math.floor(data.main.feels_like) + '°C';
     var weather = data.weather[0].main;
+    var city = data.name;
 
+    $('.city').append(city);
     $('.weather').append(weather);
     $('.icon').attr('src', icon);
     $('.temp').append(temp);

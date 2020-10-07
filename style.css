@@ -1,0 +1,12 @@
+body{
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weather-container{
+    background-color: azure;
+    text-align: center;
+}
+
+.weather{
+    font-size: x-large;
+}
